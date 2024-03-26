@@ -1,6 +1,6 @@
 # Activity 2
 
-Author: Jethro R Cadang
+Author: Jethro R Cadang <br/>
 Instructor: Mr. Elmer C. Alvarado
 
 # Activity Instructions
