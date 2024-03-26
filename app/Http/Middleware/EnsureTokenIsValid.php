@@ -15,6 +15,12 @@ class EnsureTokenIsValid
      */
     public function handle(Request $request, Closure $next): Response
     {
+        // Get token in env variables
+        $token=env('TOKEN');
+        // Header Key = Authorization Value = TOKEN, if not authorized cannot pass to routes and status 401 not authorized
+        if($request->header('Authorization') !== $token){
+            return response()->json(['Unauthorized' => 'YOU SHALL NOT PASS!!!'], 401);
+        }
         return $next($request);
     }
 }
