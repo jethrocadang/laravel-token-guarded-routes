@@ -35,6 +35,5 @@ Instructions:
 
  &nbsp;i. Response Message: Product with ID: `<id>` deleted successfully.
 
-<br>
 4. DefineappropriateroutestoaccesstheCRUDfunctionalitiesofthe `ProductController` using `apiResource`.
 5. TesttheCRUDoperationsbysendingrequeststothedefinedroutesusing tools like Postman or any API testing tool. 
